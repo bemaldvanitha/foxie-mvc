@@ -4,12 +4,7 @@
         <?php echo $data['title'] ?>
     </h1>
 
-    <ul>
-        <?php foreach ($data['posts'] as $post) : ?>
+    <p>HELLO GUYS....  documentation is in ......</p>
 
-            <li> <?php echo $post->title; ?>  </li>
-
-        <?php endforeach; ?>
-    </ul>
 
 <?php require APPROOT . '/views/inc/footer.php' ?>
