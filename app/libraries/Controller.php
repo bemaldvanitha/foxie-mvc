@@ -8,6 +8,7 @@
 
         // Load model
         public function model($model){
+
             // require model files
             require_once '../app/models/' . $model . '.php';
 
